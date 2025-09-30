@@ -4,21 +4,34 @@ Only CRLF Line Ending is accepted.
 
 # Why?
 Starting in Version 24.00 Beta, the line ending was changed as Unix (LF).
-The issue can be found this: https://github.com/ip7z/7zip/issues/14
+The issue can be found [here](https://github.com/ip7z/7zip/issues/14).
 
 I later on decided make Language Pack for 7-Zip with the latest version. However for some reason, many language file (e.g: fr.txt) had Unix (LF) File after 24.00 released. So, I decided convert it as CR+LF Line Ending instead (Recommended for Windows user which can use it on Windows Notepad).
 
 # Installation
-First, if you have 7-Zip is installed, You must put the following directory like this: **c:\Program Files\7-Zip\Lang**.
+First, if you have 7-Zip is installed, You must put the following directory like this:<br/>
+**C:\Program Files\7-Zip\Lang**.
 
-However if you running in 64-bit with 7-zip 32-bit installed, put the following this: **c:\Program Files (x86)\7-Zip\Lang**.
+However if you running in 64-bit with 7-zip 32-bit installed, put the following this:<br/>
+**C:\Program Files (x86)\7-Zip\Lang**.
 
-Once the extraction is complete, you can choose the language you want. Go to Tools -> Options and select Language Tab.
+Once the extraction is complete, you can choose the language you want. Go to **Tools** -> **Options** and select **Language** Tab.
 
 # English Base file (en.ttt)
-The en.ttt file is simple, which this is base language file that uses **English (Default)** language. However for some reason, en is default language, which it should be en-US (as 0409 hex or 1033 decimal).
+The en.ttt file is simple, which this is base language file that uses **English (Default)** language. However for some reason, **en** is default language, which it should be en-US (as 0409 hex or 1033 decimal).
 
 If you want to translate your language and new localization, Just copy en.ttt file and paste what language you want preferred. Such as Bosnian language.
+
+## Discrepancy File Version
+In most versions that came found on 7-Zip 24.05, the **en.ttt** file uses old version, indicating this:<br/>
+**; 24.04 : 2024-04-05 : Igor Pavlov**
+
+In order to update the latest version (such as 25.01), this is the example as follows:<br/>
+**; 25.01 : 2025-08-03 : Igor Pavlov**
+
+Versions below 24.04 (that uses 7-Zip 24.05 through 25.01) contains this is bug version which it came old version. We always updated new version if Igor releases 7-Zip future versions.
+
+Also for that, the **ru.txt** file is affected, which it had 24.04.
 
 ## Where to use Text Editor?
 We use Notepad2e (https://github.com/ProgerXP/Notepad2e) or Notepad++. However there is no issue at all if you want use Windows Notepad.
