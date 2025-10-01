@@ -46,6 +46,15 @@ This is the most common issue if you use Windows Notepad. However it does affect
 * **For Notepad2 (including Notepad2e) users**: File -> Line Endings -> Windows (CR+LF)
 * **For Mousepad users (in Linux)**: Document -> Line Ending -> DOS/Windows (CRLF)
 
+## FeatherPad User Notice
+**Applies for LXQt Desktop and Lubuntu starting in 18.10**
+**SAVING THE FILE WILL SET AS UNIX (LF) LINE ENDING. THIS METHOD IS NOT RECOMMENDED!**
+
+If some users who had installed Lubuntu (Starting in 18.10) and LXQt Desktop Environment, We strongly advise use MousePad from XFCE. If you save the file right now, the Line Ending will changed as Unix (LF).
+
+You **MUST** use MousePad (from XFCE) so that you can use Windows (CR+LF) Line Ending.
+
+## The Problem
 LF Line Ending has several issue when you run earlier notepad (which is appeared on Windows XP), it does not affected on Wine which they applies LF Line Ending. For whatever reasons, LF Line Ending shows garbled text on notepad.
 
 Here is the quote by Andrzej P. Wozniak (aka Usher) on Sourceforge said:
