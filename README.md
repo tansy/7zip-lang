@@ -47,7 +47,7 @@ This is the most common issue if you use Windows Notepad. However it does affect
 * **For Mousepad users (in Linux)**: Document -> Line Ending -> DOS/Windows (CRLF)
 
 ## FeatherPad User Notice
-**Applies for LXQt Desktop and Lubuntu starting in 18.10**
+**Applies for LXQt Desktop and Lubuntu starting in 18.10**<br/>
 **SAVING THE FILE WILL SET AS UNIX (LF) LINE ENDING. THIS METHOD IS NOT RECOMMENDED!**
 
 If some users who had installed Lubuntu (Starting in 18.10) and LXQt Desktop Environment, We strongly advise use MousePad from XFCE. If you save the file right now, the Line Ending will changed as Unix (LF).
