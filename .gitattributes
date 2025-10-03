@@ -1,0 +1,8 @@
+# Git Attributes for 7-Zip Language Pack
+# Created by Scubarisa (PopuriAO29)
+# CRLF Line Ending
+
+## Text Files
+* text auto eol=crlf
+*.ttt eol=crlf
+*.txt eol=crlf
